@@ -17,15 +17,25 @@
 
 .header {
   background-color: #393f4d;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr;
+  gap: 200px;
 }
 
-.menu ul,
-.menu li {
+.menu ul {
   font-size: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
 }
 
 .sidebar {
   background-color: #FF7755;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .sidebar .photo {
@@ -48,6 +58,11 @@
   background-color: #FF7755;
 }
 
+.nav ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
@@ -55,6 +70,9 @@
 
 .article {
   background-color: #bccbde;
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  gap: 10px;
 }
 
 .article p {
@@ -68,6 +86,7 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
+  
 }
 
 .card p {
