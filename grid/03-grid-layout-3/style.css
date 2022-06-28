@@ -29,7 +29,6 @@
   grid-row: 1 / 2;
 }
 
-
 .menu ul {
   font-size: 16px;
   display: grid;
@@ -37,9 +36,14 @@
   list-style: none;
 }
 
-.menu ul li {
-  padding-top: 20px;
+.logo {
+  justify-self: start;
 }
+
+.menu {
+  align-self: center;
+}
+
 
 .sidebar {
   background-color: #FF7755;
